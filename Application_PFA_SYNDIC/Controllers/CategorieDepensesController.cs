@@ -82,5 +82,9 @@ namespace Application_PFA_SYNDIC.Controllers
             }
             return View();
         }
+        public IActionResult test()
+        {
+            return View();
+        }
     }
 }
