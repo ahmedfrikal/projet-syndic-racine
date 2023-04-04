@@ -3510,24 +3510,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hp-info\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Moi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp-info\\Desktop\\test\\SYNDIC_PFA_APPLICATION\\Application_PFA_SYNDIC\\Application_PFA_SYNDIC.csproj",
+      "projectUniqueName": "C:\\Users\\Moi\\Desktop\\Mon_espace_de_travail\\PFA Belmir Ahmed FRIKAL Ahmed\\PFA_SYNDIC\\projet-syndic-racine\\projet-syndic-racine\\Application_PFA_SYNDIC\\Application_PFA_SYNDIC.csproj",
       "projectName": "Application_PFA_SYNDIC",
-      "projectPath": "C:\\Users\\hp-info\\Desktop\\test\\SYNDIC_PFA_APPLICATION\\Application_PFA_SYNDIC\\Application_PFA_SYNDIC.csproj",
-      "packagesPath": "C:\\Users\\hp-info\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp-info\\Desktop\\test\\SYNDIC_PFA_APPLICATION\\Application_PFA_SYNDIC\\obj\\",
+      "projectPath": "C:\\Users\\Moi\\Desktop\\Mon_espace_de_travail\\PFA Belmir Ahmed FRIKAL Ahmed\\PFA_SYNDIC\\projet-syndic-racine\\projet-syndic-racine\\Application_PFA_SYNDIC\\Application_PFA_SYNDIC.csproj",
+      "packagesPath": "C:\\Users\\Moi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Moi\\Desktop\\Mon_espace_de_travail\\PFA Belmir Ahmed FRIKAL Ahmed\\PFA_SYNDIC\\projet-syndic-racine\\projet-syndic-racine\\Application_PFA_SYNDIC\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\hp-info\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Moi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3589,7 +3584,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -15,7 +15,7 @@ namespace Application_PFA_SYNDIC.Controllers
         public IActionResult Index(int id)
         {
             id = 1;
-            List<CategorieDepenses> categorieDepenses = mycontext.categorieDepenses.Where(e=>e.Id.Equals(id)).Include(m => m.depenses).ToList();
+            List<CategorieDepenses> categorieDepenses = mycontext.categorieDepenses.Where(e=>e.coproprieteId.Equals(id)).Include(m => m.depenses).ToList();
             return View(categorieDepenses);
         }
         public IActionResult Add()
