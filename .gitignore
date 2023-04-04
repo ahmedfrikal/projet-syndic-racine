@@ -3,16 +3,4 @@ Application_PFA_SYNDIC/appsettings.json
 Application_PFA_SYNDIC/bin/Debug/net6.0/appsettings.json
 Application_PFA_SYNDIC/appsettings.json
 
-Application_PFA_SYNDIC/obj/project.nuget.cache
-Application_PFA_SYNDIC/obj/Application_PFA_SYNDIC.csproj.nuget.dgspec.json
-Application_PFA_SYNDIC/bin/Debug/net6.0/Application_PFA_SYNDIC.staticwebassets.runtime.json
-Application_PFA_SYNDIC/bin/Debug/net6.0/Application_PFA_SYNDIC.pdb
-Application_PFA_SYNDIC/bin/Debug/net6.0/Application_PFA_SYNDIC.exe
-Application_PFA_SYNDIC/bin/Debug/net6.0/Application_PFA_SYNDIC.dll
-Application_PFA_SYNDIC/appsettings.Development.json
-.vs/Application_PFA_SYNDIC/v17/.suo
-.vs/Application_PFA_SYNDIC/FileContentIndex/a9744a33-0fba-470b-bf29-87c15cbe5cb8.vsidx
-.vs/Application_PFA_SYNDIC/FileContentIndex/7380347f-2e3f-4e98-8b69-afc932fb83f8.vsidx
-.vs/Application_PFA_SYNDIC/FileContentIndex/6209fc9d-04a7-444b-9ae6-c46585d45418.vsidx
-.vs/Application_PFA_SYNDIC/FileContentIndex/3bf1ad11-7547-4c29-ae8b-4f75ab4aa6a8.vsidx
-.vs/Application_PFA_SYNDIC/FileContentIndex/1138bf7f-5f35-4dd6-83e4-debba75542ba.vsidx
+
