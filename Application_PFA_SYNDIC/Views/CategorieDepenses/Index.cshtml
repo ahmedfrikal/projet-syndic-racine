@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = " CategorieDepenses";
+}
+@model List<CategorieDepenses>
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">CategorieDepenses</h4>
+        <div class="table-responsive">
+            <table class="table mb-0">
+                <thead class="thead-light">
+                    <tr>
+                        <th>ID</th>
+                        <th>Rubrique</th>
+                        <th>Depences</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(CategorieDepenses categorieDepenses in Model)
+                    {
+                     <tr>
+                        <th scope="row">@categorieDepenses.Id</th>
+                        <td>@categorieDepenses.rubrique</td>
+                         <td>
+                                @foreach (Depense depense in categorieDepenses.depenses)
+                                {
+                                <dl class="row ">
+                                    <dt class="col-sm-6">@depense.libelle</dt>
+                                    <dd class="col-sm-6">@depense.budget Dh</dd>
+                                 </dl>
+                                }
+                          </td>
+                          <td>
+                                <a asp-action="delete" asp-controller="CategorieDepenses" asp-route-id="@categorieDepenses.Id" class="btn btn-danger" onclick="return(confirm('vous voulez vraiment suprimer'))">Suprimer</a>
+                                <a asp-action="edit" asp-controller="CategorieDepenses" asp-route-id="@categorieDepenses.Id" class="btn btn-info">Modifier</a>
+                              
+                          </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <!-- end card-body-->
+</div>
+
+@if (TempData["message"] != null)
+{
+    <script>
+        alert('@TempData["message"]');
+    </script>
+}
