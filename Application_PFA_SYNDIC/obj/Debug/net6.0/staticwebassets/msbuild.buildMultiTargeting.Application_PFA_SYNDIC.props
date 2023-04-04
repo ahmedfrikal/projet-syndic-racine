@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Application_PFA_SYNDIC.props" />
-</Project>

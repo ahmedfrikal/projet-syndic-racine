@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Application_PFA_SYNDIC.props" />
-</Project>
